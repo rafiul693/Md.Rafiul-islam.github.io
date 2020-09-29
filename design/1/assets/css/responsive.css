@@ -1,0 +1,98 @@
+@media all and (max-width: 990px){}
+
+@media all and (min-width: 768px){
+	.menu-icon {
+		display: none;
+	}
+}
+	
+
+
+
+@media all and (max-width: 767px){
+	.menu ul {
+	flex-direction: column;
+		position: absolute;
+		top: 33px;
+		right: 0;
+		padding: 10px 20px;
+		background: rgb(24,40,63,.8);
+		display: none;
+		z-index: 5;
+	}
+	.menu ul li a {
+		margin-left: 0;
+	}
+	.serach-icon {
+		display: none;
+	}
+	.search-area span {
+		display: none;
+	}
+	.search {
+		margin-right: 10px;
+	}
+	.search-form{
+		display: block;
+	}
+	.top-search {
+		position: inherit;
+	}
+	.top-search input {
+		max-width: 200px;
+		width: 100%;
+		display: inline-block;
+		background: #18283F;
+	}
+	.search-area {
+		background: #fff;
+		margin-top: 7px;
+	}
+	.service {
+		margin-top: 40px;
+	}
+	.single-service {
+		margin-bottom: 40px;
+	}
+	.portfolio-menu li {
+		padding: 5px 10px;
+	}
+	.left-design {
+		margin-bottom: 40px;
+	}
+	.single-client {
+		margin-bottom: 40px;
+	}
+	.subscribe {
+		flex-direction: column;
+	}
+	.subscribe input {
+		margin: 20px 0;
+		text-align: center;
+	}
+	.subscribe input::placeholder{
+		text-align: center;
+	}
+	.copy-right-area,.links{
+		margin-bottom: 40px;
+	}
+}
+
+@media all and (max-width: 575px){
+	.logo img {
+		width: 80px;
+	}
+}
+	
+@media all and (max-width: 440px){
+	.top-search input {
+		width: 80%;
+	}
+	.portfolio-menu ul {
+		flex-direction: column;
+	}
+	.portfolio-menu li {
+		text-align: center;
+		display: block;
+	}
+}

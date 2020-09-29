@@ -1,0 +1,40 @@
+
+
+@media all and (max-width: 991px){
+	.menu {
+		justify-content: flex-start;
+	}
+	.menu ul li a, .menu ul li{
+		margin: 0;
+		padding: 0;
+	}
+	.menu ul li a:hover, .menu ul li.active a {
+		 border-bottom: 2px solid transparent; 
+	}
+	.w-100 {
+		height: auto;
+	}
+	.single-service a {
+		font-size: 14px;
+	}
+	.col-lg-4.service-margin {
+		margin-bottom: 30px!important;
+	}
+
+}
+@media all and (min-width: 767px){
+	
+}
+@media all and (max-width: 767px){
+	.single-contact {
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width: 575px){
+	.carousel-content h2 {
+		font-size: 25px;
+	}
+	.carousel-content h1 {
+		font-size: 30px;
+	}
+}

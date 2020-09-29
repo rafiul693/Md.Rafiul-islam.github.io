@@ -1,0 +1,82 @@
+
+
+@media all and (max-width: 990px){
+	.section-padding{
+		padding: 70px 0;
+	}
+	.single-project {
+		margin-bottom: 60px;
+	}
+	.single-project h1 {
+		font-size: 50px;
+		padding: 20px 0;
+	}
+		.card-columns .card:hover .portfolio-overlay {
+		visibility: hidden;
+	}
+}
+@media all and (min-width: 767px){
+	.menu-icon{
+		display: none;
+	}
+}
+@media all and (max-width: 767px){
+	.logo{
+		display: block;
+		text-align: center;
+	}
+	.menu ul {
+		position: absolute;
+		left: 10px;
+		top: 33px;
+		background: rgb(0,0,0,.5);
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		display: none; 
+	}
+	.menu ul li a {
+		margin: 5px;
+		border-bottom: 1px solid transparent;
+	}
+	.menu ul li a:hover {
+		border-bottom: 1px solid #FFEB3B;
+	}
+	.menu ul li a::after{
+		display: none;
+	}
+	.active a::after{
+		display: none;
+	}
+	.menu-icon {
+		color: #FFEB3B;
+		font-size: 25px;
+		position: relative;
+		z-index: 5555;
+		display: inline-block;
+		width: 30px;
+	}
+	.search-area {
+		font-size: 14px;
+		color: #fff;
+		position: absolute;
+		top: 50px;
+		right: 0;
+		display: inline-block;
+		width: 100px;
+	}
+	.search-form {
+		top: 103px;
+		right: 0;
+	}
+	.header-text h1 span {
+		font-size: 90px;
+	}
+	.header-text h1 {
+		font-size: 40px;
+	}
+}
+@media all and (max-width: 575px){
+
+}

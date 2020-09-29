@@ -1,0 +1,533 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h2 {
+	font-weight: 600;
+	font-size: 28px;
+	color: #1a2940;
+}
+.container{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+.section-padding{
+	padding: 40px 0;
+}
+.button {
+	padding: 7px 25px;
+	background: #FF3150;
+	border-radius: 16px;
+	color: #ffc501;
+	font-weight: 600;
+	display: inline-block;
+	font-size: 12px;
+}
+.button:hover{
+	color: #00c7c0;
+}
+.section-heading {
+	text-align: center;
+}
+.share{
+	width: 60px;
+}
+.section-heading h2 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+.section-heading p {
+	font-size: 13px;
+	color: #a8b9c0;
+}
+  /***********************************************/
+ /*************** 1.Header Area css *************/
+/***********************************************/
+
+.header-area {
+	background: url('../images/bg.jpg') no-repeat scroll 0 0 / 100% 100%;
+	padding: 10px 0;
+}
+.logo img {
+	width: 60%;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 0;
+}
+.menu ul li a {
+	margin-left: 30px;
+	color: #a8b9c0;
+	font-size: 15px;
+	font-weight: 400;
+	display: block;
+}
+.menu ul li a:hover{
+	color: #00c7c0;
+}
+.active a{
+	color: #00c7c0!important;
+}
+.menu-icon {
+	color: #fff;
+	font-size: 30px;
+	float: right;
+}
+.search-area {
+	color: #00c7c0;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.search-area span {
+	font-size: 25px;
+}
+.search{
+	position: relative;
+}
+.search i {
+	padding: 0 10px;
+	font-size: 20px;
+}
+.search-form{
+	display: none;
+}
+.top-search {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	padding: 10px 0;
+	border-radius: 5px;
+	transition: .5s;
+}
+.top-search input {
+	background: transparent;
+	border: 1px solid #FF3150;
+	color: #fff;
+	font-weight: 300;
+	padding-left: 10px;
+}
+.top-search input:focus {
+	box-shadow: 0 0 5px #FF3150;
+}
+.top-search input::placeholder {
+	color: #fff;
+	opacity: 1;
+	font-size: 12px;
+}
+.top-search a i {
+	background: #FF3150;
+	color: #fff;
+	padding: 4px 8px;
+}
+.header-text {
+	text-align: center;
+	padding: 95px 0;
+}
+.header-text h1 {
+	color: #f0f8fb;
+	font-size: 45px;
+	font-weight: 300;
+}
+.header-text p {
+	color: #a8b9c0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+  /***********************************************/
+ /************** 2.Service Area css *************/
+/***********************************************/
+
+.service {
+	margin-top: 140px;
+}
+.single-service {
+	text-align: center;
+}
+.single-service img{
+	height: 50px;
+}
+.single-service h3 {
+	padding: 25px 0;
+	font-size: 18px;
+	color: #ffc501;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.single-service p {
+	color: #a8b9c0;
+	font-size: 12px;
+	line-height: 30px;
+	width: 90%;
+	margin: auto;
+}
+
+  /***********************************************/
+ /************** 3.Portfolio Area css ***********/
+/***********************************************/
+.portfolio-area{
+	background: #F3F9FE;
+}
+.portfolio-menu {
+	margin: 40px 0;
+}
+.portfolio-menu ul {
+	display: flex;
+	justify-content: center;
+}
+.portfolio-menu li {
+	padding: 10px 20px;
+	margin-right: 10px;
+	border-radius: 10px;
+	color: #a8b9c0;
+}
+.portfolio-menu li:hover, .active-1{
+	color: #ffc501 !important; 
+	background: #FF3150;
+}
+.single-img{
+	margin-bottom: 30px;
+	position: relative;
+}
+.single-img img{
+	width: 100%;
+	position: relative;
+}
+.portfolio-overlay {
+	position: absolute;
+	background: rgb( 0, 198, 191,.8 );
+	width: calc(100% - 30px);
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	visibility: hidden;
+}
+.single-img:hover .portfolio-overlay{
+	visibility: visible;
+}
+.portfolio-overlay h3 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+.portfolio-overlay p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #1a2940;
+}
+.gellary-btn {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.gellary-btn a {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 45px;
+}
+  /***********************************************/
+ /************** 4.About us Area css ************/
+/***********************************************/
+.about-area{
+	background: #F3F9FE;
+}
+.about-text {
+	font-weight: 300;
+	font-size: 11px !important;
+	color: #a8b9c0 !important;
+	width: 55%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 35px;
+}
+.left-design{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.left-design h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.left-design p {
+	margin-bottom: 15px;
+	font-size: 11px;
+	color: #a8b9c0;
+	font-weight: 300;
+}
+.left-design a {
+	width: max-content;
+	text-transform: uppercase;
+}
+.right-design img {
+	width: 100%;
+	height: auto;
+	padding-left: 15px;
+}
+.team-area{
+	padding-top: 40px;
+}
+.team-header{
+	text-align: center;
+}
+.team-header h2{
+	color: #ffc501;
+	font-size: 25px;
+	text-transform: capitalize;
+}
+.team-header p {
+	color: #a8b9c0;
+	font-size: 12px;
+	width: 85%;
+	margin: auto;
+	padding: 10px 0 35px 0;
+}
+.single-member{
+	width: 100%;
+	display: inline-block;
+}
+.member-img {
+	position: relative;
+}
+.single-member img {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.member-overlay {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background: rgb( 0, 198, 191,.8 );
+	overflow: hidden;
+	border-radius: 1%;
+	bottom: 0;
+}
+.member-overlay h4 {
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	opacity: 0.7;
+	font-weight: 400;
+}
+.single-member p{}
+.member-text p {
+	padding: 20px;
+	color: #a8b9c0;
+	font-size: 12px;
+	text-align: center;
+}
+
+  /***********************************************/
+ /*************** 5.Client Area css *************/
+/***********************************************/
+.single-client {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  /***********************************************/
+ /************** 6.Project Area css *************/
+/***********************************************/
+.project-area {
+	background: #1B2940;
+	padding: 75px 0;
+}
+.project-header{
+	text-align: center;
+}
+.project-header h3 {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+}
+.project-header p {
+	font-size: 12px;
+	font-weight: 400;
+	color: #a8b9c0;
+	padding-top: 10px;
+}
+.project-header a {
+	margin-top: 35px;
+	padding: 7px 30px;
+	text-transform: uppercase;
+}
+  /***********************************************/
+ /************** 7.Blog Area css ****************/
+/***********************************************/
+.single-blog {
+	margin-top: 35px;
+}
+.single-blog img {
+	width: 100%;
+	height: auto;
+}
+.single-blog p {
+	color: #a8b9c0;
+	font-size: 12px;
+	padding: 5px 0;
+}
+.single-blog h4{
+	color: #1a2940;
+	font-weight: 400;
+	font-size: 16px;
+}
+.blog-btn {
+	margin: auto;
+	padding-top: 35px;
+}
+.blog-btn a {
+	padding: 7px 30px;
+	text-transform: uppercase;
+}
+  /***********************************************/
+ /************** 8.Subscribe Area css ***********/
+/***********************************************/
+.subscribe-area{
+	padding: 20px 0;
+	background: #FFC400;
+}
+.subscribe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subscribe h4 {
+	font-size: 16px;
+}
+.subscribe input {
+	max-width: 380px;
+	width: 100%;
+	margin: 0 20px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 12px;
+}
+.subscribe input::placeholder{
+	font-size: 12px;
+	color: #fff;
+	opacity: 1;
+}
+.subscribe a {
+	background: #19283F;
+	padding: 7px 40px;
+	border-radius: 18px;
+}
+  /***********************************************/
+ /************** 9.Footer Area css **************/
+/***********************************************/
+.footer-area{
+	background: #1B2940;
+	padding: 40px 0;
+}
+.copy-right-area {
+	color: #a8b9c0;
+	font-size: 10px;
+}
+.copy-right-area p {
+	line-height: 20px;
+}
+.footer-logo {
+	display: inline-block;
+}
+.footer-logo img {
+	width: 80%;
+	padding-bottom: 20px;
+}
+.copy-right {
+	padding-top: 45px;
+}
+.copy-right p span{
+	color: #00c7c0;
+}
+.copy span{
+	color: #ffc501 !important;;
+}
+.links, .about,.contact,.footer-contact{
+	color: #f0f8fb;
+	line-height: 25px;
+}
+.link-head, .about-head,.contact{
+	font-size: 12px;
+}
+.links ul, .about ul{
+	
+}
+.links ul li a, .about ul li a,.contact-text{
+	color: #a8b9c0;
+	font-size: 10px;
+	display: inline-block;
+}
+.footer-contact a{
+	display: block;
+	margin:20px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 500;
+}
+.footer-contact a:hover{
+	color: #fff;
+}
+.social-icon ul{
+	display: flex;
+	flex-direction: row;
+}
+.social-icon ul li{
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.social-icon ul li a {
+	margin: 5px;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+.social-icon ul li:nth-of-type(1){
+	background: #347CD2;
+}
+.social-icon ul li:nth-of-type(2){
+	background: #1EC4FF;
+}
+.social-icon ul li:nth-of-type(3){
+	background: #FF4032;
+}
+.social-icon ul li:nth-of-type(4){
+	background: #FF3298;
+}

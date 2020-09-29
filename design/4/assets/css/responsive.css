@@ -1,0 +1,125 @@
+@media all and (max-width: 1200px){
+	.navbar-dark .navbar-nav .nav-link {
+		font-size: 16px;
+	}
+	.custom-carousel-caption h5 {
+		font-size: 30px;
+	}
+	.custom-carousel-caption h1 {
+		font-size: 75px;
+	}
+	.custom-carousel-caption p {
+		font-size: 30px;
+	}
+}
+
+@media all and (max-width: 991px){
+	.navbar-dark .navbar-toggler {
+		border-color: rgba(255, 255, 255, 1);
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		text-shadow: 0 0 2px #000;
+	}
+	.bg-nav-area{
+		background: rgb(0,0,0,.7);
+	}
+	.carousel-indicators {
+		bottom: 0;
+	}
+	.custom-carousel-caption h5 {
+		font-size: 25px;
+	}
+	.custom-carousel-caption h1 {
+		font-size: 55px;
+	}
+	.custom-carousel-caption p {
+		font-size: 25px;
+	}
+	.section-header p {
+		width: 90%;
+	}
+	.single-about {
+		margin-bottom: 40px;
+	}
+	.single-service {
+		margin-top: 30px;
+	}
+	.portfolio-menu ul {
+		flex-direction: column;
+		text-align: center;
+	}
+	.portfolio-menu ul li {
+		margin: 1px auto;
+		display: inline-block;
+		width: 190px;
+	}
+	.single-price{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.pricing-header, .single-project,.single-contact {
+		margin-bottom: 40px;
+	}
+	.footer-social {
+		position: relative;
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+@media all and (min-width: 768px){}
+
+@media all and (max-width: 767px){
+	.navbar-brand img{
+		width: 70%;
+	}
+	.custom-carousel-caption h5 {
+		font-size: 18px;
+	}
+	.custom-carousel-caption h1 {
+		font-size: 35px;
+	}
+	.custom-carousel-caption p {
+		font-size: 18px;
+	}
+	.single-about p {
+		text-align: center;
+	}
+	.section-padding {
+		padding: 70px 0 30px 0;
+	}
+	.portfolio-area {
+		padding: 70px 0 50px 0;
+	}
+	.project-area {
+		padding: 70px 0 30px 0;
+	}
+	.single-form-2 {
+		margin-left: 15px;
+	}
+}
+
+@media all and (max-width: 575px){
+	.custom-carousel-caption h5 {
+		font-size: 12px;
+	}
+	.custom-carousel-caption h1 {
+		font-size: 22px;
+		padding: 5px 35px;
+	}
+	.custom-carousel-caption p {
+		font-size: 12px;
+	}
+}
+
+@media all and (max-width: 440px){
+	.custom-carousel-caption h5 {
+		display: none
+	}
+	.custom-carousel-caption h1 {
+		display: none
+	}
+	.custom-carousel-caption p {
+		display: none
+	}
+}

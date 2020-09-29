@@ -1,0 +1,53 @@
+@media all and (max-width: 1200px){
+	.single-title {
+		margin-top: 30px;
+		height: 100%;
+		margin-bottom: 0;
+	}
+	.about-area {
+		margin-top: 60px;
+	}
+}
+
+@media all and (max-width: 991px){
+	.nav-item {
+		padding: 10px;
+	}
+	.nav-link {
+		padding: 0;
+	}
+	.single-title {
+		height: 90%;
+	}
+	.member-area {
+		 padding-top: 0; 
+	}
+	.single-member img {
+		margin-top: 0;
+	}
+	.member-margin{
+		margin-top:30px;
+	}
+}
+@media all and (min-width: 768px){}
+
+@media all and (max-width: 767px){
+	.right-event {
+		margin-top: 30px;
+	}
+}
+
+@media all and (max-width: 575px){
+	.navbar-light .navbar-brand {
+		width: 70%;
+	}
+	.navbar-brand img {
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 440px){
+	.swimming button a {
+		font-size: 17px;
+	}
+}

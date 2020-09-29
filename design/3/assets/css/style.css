@@ -1,0 +1,653 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+a, a:hover{
+  text-decoration: none;
+}
+.section-header{
+  text-align: center;
+}
+.section-header h1 {
+  font-size: 44px;
+  color: #3b404f;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.section-header p {
+  font-size: 14px;
+  width: 60%;
+  margin: auto;
+  color: #6d7396;
+}
+
+.logo h2{
+  font-size: 36px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+font-weight: 800;
+color: #fab702;
+}
+
+  /*******************************************/
+ /************ 1. Header area css ***********/
+/*******************************************/
+.header-area{
+  background:#F5F5F5;
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #696969;
+  padding: 15px 0;
+}
+.contact {
+  display: flex;
+}
+.contact p {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.contact p i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+  /*******************************************/
+ /************ 2. navbar area css ***********/
+/*******************************************/
+.navbar-area{
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul li{
+  color: #3b404f;
+  margin-left: 25px;
+  position: relative;
+}
+.menu ul li i {
+  margin-left: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.search-form {
+  top: 25px;
+  right: 0;
+  z-index: 5;
+}
+.search-form form{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.search-form input {
+  border: 1px solid #3b404f;
+  padding: 5px;
+}
+.search-form input::placeholder{
+  color: #3b404f;
+  font-size: 14px;
+  opacity: .5;
+}
+.search-form button {
+  border: 1px solid #3b404f;
+  background: #F9B701;
+}
+.search-form button:hover a i{
+  color: #fff;
+}
+.search-form button a i {
+  margin: 0;
+  padding: 11px 5px;
+  font-size: 12px;
+}
+.menu ul li a {
+  font-size: 14px;
+  display: block;
+  color: #3b404f;
+}
+.menu ul li a:hover , .active a{
+  color: #fab702!important;
+}
+  /*******************************************/
+ /************ 3. Banner area css ***********/
+/*******************************************/
+.banner-area{
+  position: relative;
+}
+.container .banner-text{
+  position: absolute;
+  margin: auto;
+}
+.banner-text {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  width: 55%;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.banner-text p {
+  color: #fff;
+  font-size: 14px;
+  width: 40%;
+  padding-bottom: 20px;
+}
+.banner-text button {
+  display: block;
+  background: #F9B701;
+  padding: 15px 40px;
+  width: max-content;
+  border: none;
+}
+.banner-text button a {
+  display: inherit;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.custom-carousel {
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 40px;
+}
+  /*******************************************/
+ /************ 4. Quote area css ************/
+/*******************************************/
+.quote-area{
+  background: #F9B701;
+}
+.quote {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+.quote p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+}
+.quote p span{
+  text-transform: italic;
+  color: #000;
+  border-bottom: 2px solid;
+}
+.quote button {
+  border: none;
+  padding: 10px 30px;
+  margin-top: 5px;
+}
+.quote button a {
+  font-size: 14px;
+  color: #F9B701;
+  font-weight: 600;
+}
+  /*******************************************/
+ /*********** 5. Service area css ***********/
+/*******************************************/
+.service-header{
+  margin-top: 180px;
+}
+.single-service{
+  margin: 100px 0;
+}
+.single-service img {
+  width: 100%;
+  height: auto;
+}
+.single-service h3 {
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 35px 0 20px 0;
+  transition: .3s;
+}
+.single-service p {
+  font-size: 14px;
+  color: #6d7396;
+  margin-bottom: 20px;
+}
+.single-service a {
+  font-size: 14px;
+  color: #6d7396;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.single-service:hover h3{
+  color: #fab702;
+}
+.single-service:hover a{
+  color: #fab702;
+  border-bottom: 2px solid #fab702;
+}
+  /*******************************************/
+ /*********** 6. testimonial area css *******/
+/*******************************************/
+.testimonial{
+  margin: 125px 0;
+  color: #F8F8F8;
+}
+.single-testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.single-testimonial img {
+  width: auto;
+  height: 80px;
+  padding: 10px 50px 0 20px;
+}
+.testimonial-text{}
+.testimonial-text h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3b404f;
+  transition: .3s;
+}
+.testimonial-text p {
+  color: #6d7396;
+  font-size: 14px;
+  width: 70%;
+}
+.single-testimonial:hover .testimonial-text h4{
+  color: #ffb700;
+}
+  /*******************************************/
+ /*********** 7. Portfolio area css *********/
+/*******************************************/
+.portfolio-area{
+  margin-top: 100px;
+}
+.portfolio-menu ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.portfolio-menu ul li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.portfolio-menu ul li:hover, .active-1 {
+  border-bottom: 1px solid #ffb700;
+  color: #ffb700;
+}
+.card-columns {
+  column-gap: 0;
+}
+.card-columns .card {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.card-columns .card:hover .portfolio-overlay {
+  visibility: visible;
+  transform: translateY(0);
+}
+.card-img-top{
+  position: relative;
+}
+.portfolio-overlay {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+  padding: 25px 0;
+  background: #FEF6DF;
+  margin: 5px;
+  text-align: center;
+   visibility: hidden; 
+  transition: .5s;
+  transform: translatey(90px);
+}
+.overlay-border {
+  height: 2.688px;
+  width: 77px;
+  background: rgb( 109, 115, 150 );
+  margin-top: 7px;
+}
+.overlay-left{
+  margin-left: 30px;
+}
+.overlay-left p {
+  color: #3b404f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.overlay-right{
+  display: flex;
+  align-items: center;
+}
+.overlay-right i {
+  margin-right: 10px;
+  color: #fff;
+  background: #F9B701;
+  padding: 8px 12px;
+}
+  /*******************************************/
+ /*********** 8. Feedback area css **********/
+/*******************************************/
+.feedback-area{
+  margin:125px 0 80px 0;
+}
+.feedback-header{
+ margin-bottom: 100px;
+}
+.single-feedback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+.single-feedback img {
+  width: 350px !important;
+  height: auto;
+  margin-right: 20px;
+}
+.feedback-text{}
+.feedback-text p {
+  color: #6d7396;
+  font-size: 14px;
+}
+.feedback-text h6 {
+  color: #3b404f;
+  font-size: 14px;
+  margin-top: 13px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #F9B701;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  background: #F2F0F0;
+}
+.client-area{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.single-client img {
+  width: 90%;
+  height: auto;
+}
+  /*******************************************/
+ /*********** 9. Project area css ***********/
+/*******************************************/
+.project-area{
+  background: #F9B701;
+  padding: 75px 0;
+}
+.single-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-project h6{
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.single-project h1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+  /*******************************************/
+ /*********** 10. Contact area css **********/
+/*******************************************/
+.contact-us-area{
+  background: #F9F9F9;
+  padding: 100px 0;
+}
+.contact-us {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  border: 1px solid #eaeaea;
+  border-left: 5px solid #F9B701;
+  flex-wrap: wrap;
+}
+.contact-text p {
+  margin: 0;
+  color: #3b404f;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+}
+.contact-text p span{
+  color: #3b404f;
+  font-size: 12px;
+  font-weight: 400;
+}
+.contact-us button {
+  border: none;
+  background: #F9B701;
+  /* display: contents; */
+  padding: 15px 30px;
+  margin: 10px 0;
+}
+.contact-us button a {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+  /*******************************************/
+ /*********** 11. Freature area css *********/
+/*******************************************/
+.freature-area{
+  margin-top: 140px;
+  margin-bottom: 130px;
+}
+.freature-header{
+ margin-bottom: 100px;
+}
+.single-freature img {
+  width: 100%;
+  height: auto;
+}
+.freature-text{
+  margin-top: 25px;
+}
+.freature-text h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3b404f;
+}
+.freature-text .date {
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #6d7396;
+}
+.freature-text .date i{
+  margin-right: 5px;
+}
+.freature-text p {
+  font-size: 14px;
+  color: #6d7396;
+  margin-bottom: 20px;
+}
+.freature-text a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #6d7396;
+  font-weight: 600;
+}
+.single-freature:hover .freature-text a{
+  color: #ffb700;
+  border-bottom: 1px solid #ffb700;
+}
+  /*******************************************/
+ /*********** 12. Footer area css ***********/
+/*******************************************/
+.footer-area{
+  padding: 75px 0 100px 0;
+  background: #252D3A;
+}
+.footer-area hr {
+  background: #807777;
+  opacity: .1;
+}
+.recent-post p,.recent-news p,.contact-info p,.mailing-list p{
+  margin-bottom:  30px;
+  color: #fff;
+  font-size: 14px;
+}
+.recent-post ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+.recent-post ul li a:hover ,.news-text p:hover ,.contact-info ul li p a:hover ,.mail-text p:hover{
+  color: #F9B701;
+}
+.recent-post ul li a i{
+  margin-right: 5px;
+}
+.single-news {
+  display: flex;
+}
+.single-news img {
+  width: 120px;
+  height: 70px;
+  margin-right: 15px;
+}
+.news-text p {
+  margin: 0 !important;
+  font-size: 13px;
+}
+.news-text p span{
+  font-size: 10px;
+}
+.contact-info ul li {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+.contact-info ul li p{
+  margin: 0;
+}
+.contact-info ul li p a{
+  color: #fff;
+  font-size: 14px;
+}
+.contact-info ul li i {
+  font-size: 15px;
+  margin-right: 7px;
+  margin-top: 3px;
+}
+.social-icon i {
+  font-size: 20px !important;
+  margin-right: 20px !important;
+  transition: .5s;
+}
+.social-icon i:hover{
+  color:#F9B701;
+}
+.mail-text p {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.form {
+  display: flex;
+  margin-bottom: 15px;
+}
+.form input {
+  padding: 7px 20px;
+  border: none;
+  width: calc(100% - 75px);
+}
+.form input::placeholder{
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+.form button {
+  border: none;
+  background: #F9B701;
+  width: 75px;
+  padding: 0 23px;
+}
+.form button a{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mailing-list p span{
+  color: #919191;
+  font-size: 12px;
+}
+  /*******************************************/
+ /********* 13. Footer end area css *********/
+/*******************************************/
+
+.footer-end-area{
+  background: #4C5B6E;
+  padding: 20px 0;
+}
+.footer-end {
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-right {
+  color: #d8deff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li a {
+  margin-left: 15px;
+  color: #d8deff;
+  font-size: 13px;
+}

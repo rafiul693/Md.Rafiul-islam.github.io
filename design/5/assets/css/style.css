@@ -1,0 +1,316 @@
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Responsive Multipurpose HTML5 Template
+  Template URI: 
+  Description: Responsive Multipurpose, one page, Portfolio, Business,  Creative HTML Templatee
+  Author: Md.Rafiul Islam
+  Author URI: 
+  Version: 1.0
+
+CSS INDEX
+===================
+
+-----------------------------------------------------------------------------------*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+  /*********************************************/
+ /**************1.Header area******************/
+/*********************************************/
+.custom-navbar {
+	padding: 0;
+}
+.navbar-brand img {
+	width: 90%;
+}
+.menu{
+	justify-content: flex-end;
+}
+.nav-item {
+	padding: 40px 20px;
+	margin: 0 10px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.nav-item .nav-link{
+	color: #000 !important;
+}
+.nav-item.active, .menu .navbar-nav .nav-item:hover{
+	background: -moz-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+}
+.nav-item.active a, .menu .navbar-nav .nav-item:hover a{
+	color: #fff!important;
+}
+  /*********************************************/
+ /**************2.Banner title*****************/
+/*********************************************/
+.banner{}
+.banner img{
+	width: 100%;
+}
+.single-title {
+	padding: 20px 25px;
+	margin-top: -120px;
+	margin-bottom: 30px;
+}
+.single-title.title-1{
+	background: -moz-linear-gradient( 90deg, rgb( 255, 134, 21 ) 0%, rgb( 255, 175, 0 ) 99.023%);
+	background: -webkit-linear-gradient( 90deg, rgb( 255, 134, 21 ) 0%, rgb( 255, 175, 0 ) 99.023%);
+}
+.single-title.title-2{
+ 	background: -moz-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+  	background: -webkit-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+}
+.single-title.title-3{
+  	background: -moz-linear-gradient( 90deg, rgb( 255, 28, 152 ) 0%, rgb( 255, 48, 80 ) 100%);
+  	background: -webkit-linear-gradient( 90deg, rgb( 255, 28, 152 ) 0%, rgb( 255, 48, 80 ) 100%);
+}
+.single-title.title-4{
+	background: -moz-linear-gradient( 90deg, rgb( 182, 31, 224 ) 0%, rgb( 255, 20, 231 ) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb( 182, 31, 224 ) 0%, rgb( 255, 20, 231 ) 100%);
+
+}
+.title-header h3 {
+	font-size: 42px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #fff;
+
+}
+.title-text {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.title-text p {
+	font-size: 18px;
+	word-break: break-all;
+	margin-top: 25px;
+	color: #fff;
+	font-weight: 400;
+	line-height: normal;
+}
+.title-text i {
+	margin-left: 20px;
+	font-size: 30px;
+	color: #fff;
+}
+  /*********************************************/
+ /**************3.About area*******************/
+/*********************************************/
+.about-area{}
+.left-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	background: #F7F7F7;
+	padding: 0 40px;
+}
+.left-about h3 {
+	font-size: 40px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.left-about p {
+	font-size: 24px;
+	color: #545454;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.left-about button {
+	width: max-content;
+	padding: 15px 50px;
+	border: none;
+	background: -moz-linear-gradient( 3deg, rgb( 255, 139, 0 ) 0%, rgb( 255, 48, 80 ) 100%);
+  	background: -webkit-linear-gradient( 3deg, rgb( 255, 139, 0 ) 0%, rgb( 255, 48, 80 ) 100%);
+}
+.left-about button a{
+	color: #fff;
+	font-size: 18px;
+}
+.custom-margin{
+	margin-bottom: 50px;
+}
+.right-about img{
+	width: 100%;
+}
+  /*********************************************/
+ /**************4.Swimming area****************/
+/*********************************************/
+.swimming-area{
+	background: url('../images/swimming.jpg') no-repeat scroll 0 0 / 100% 100%;
+}
+.swimming {
+	background: -moz-linear-gradient( 90deg, rgb( 246, 5, 142 ) 0%, rgb( 255, 51, 81 ) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb( 246, 5, 142 ) 0%, rgb( 255, 51, 81 ) 100%);
+	padding: 50px;
+}
+.swimming h2 {
+	font-size: 45px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.swimming p {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 25px;
+	line-height: normal;
+}
+.swimming button {
+	padding: 20px 50px;
+	border: none;
+}
+.swimming button a {
+	color: #000;
+	font-size: 20px;
+}
+  /*********************************************/
+ /**************5.events area******************/
+/*********************************************/
+.events-area{
+	margin-top: 50px;
+}
+.left-event {
+	background: -moz-linear-gradient( 90deg, rgb( 255, 127, 0 ) 0%, rgb( 255, 187, 24 ) 99.365%);
+	background: -webkit-linear-gradient( 90deg, rgb( 255, 127, 0 ) 0%, rgb( 255, 187, 24 ) 99.365%);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 60px;
+}
+.left-event h3 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.left-event p {
+	color: #fff;
+	font-size: 20px;
+	line-height: 48px;
+}
+.left-event p i {
+	border: 1px solid;
+	color: #fff;
+	height: 20px;
+	width: 20px;
+	font-size: 15px;
+	border-radius: 50%;
+	padding: 2px 5px;
+	margin-right: 10px;
+}
+.right-event img{
+	width: 100%;
+}
+  /*********************************************/
+ /**************6.member area******************/
+/*********************************************/
+.member-area{
+	padding-top: 145px;
+}
+.single-member {
+	background: #F3F3F3;
+	text-align: center;
+	height: 100%;
+}
+.single-member img {
+	margin-bottom: 20px;
+	margin-top: -100px;
+}
+.single-member p {
+	font-size: 20px;
+	text-align: left;
+	padding: 0 25px;
+	color: #515151;
+	word-break: break-all;
+	margin-bottom: 25px;
+	font-weight: 300;
+	margin-bottom: 70px;
+}
+.single-member h3 {
+	text-align: left;
+	padding: 0 28px;
+	color: #ff6300;
+	bottom: 20px;
+	position: absolute;
+}
+  /*********************************************/
+ /**************7.Contact area*****************/
+/*********************************************/
+.contact-area{
+	margin-top: 50px;
+}
+.contact {
+	background: #0080CA;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	padding: 75px 60px 60px 60px;
+}
+.contact h3 {
+	font-size: 45px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.contact p, .contact a{
+	font-size: 20px;
+	color: #fff;
+}
+.contact a i {
+	font-size: 35px;
+	color: #0080CA;
+	background: #fff;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 40px;
+	margin-right: 7px;
+	transition: .2s;
+}
+.contact a i:hover{
+	background: -moz-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb( 21, 94, 209 ) 0%, rgb( 186, 92, 255 ) 100%);
+	color: #fff;
+}
+.contact a span {
+	font-size: 40px;
+	font-weight: 500;
+	padding: 15px 0;
+	display: inline-block;
+}
+.contact-social {
+	margin-top: 20px;
+}
+.footer {
+	text-align: center;
+	padding: 60px 0;
+}
+.footer p, .footer a{
+	font-size: 20px;
+	font-weight: 300;
+	color: #515151;
+}
+.footer a{}

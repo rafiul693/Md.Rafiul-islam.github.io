@@ -1,0 +1,374 @@
+@import url('../fonts/fonts.css');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+
+}
+ul{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.custom-padding{
+	padding: 80px 0;
+}
+.custom-heading{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.custom-heading h1 {
+	font-size: 45px;
+	font-weight: 600;
+	border-bottom: 2px solid #f1c40f;
+	color: #353434;
+	width: max-content;
+	margin: auto;
+}
+.navbar button span i {
+	font-size: 22px;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 3px;
+}
+  /**************************************************/
+ /****************1.Header area css*****************/
+/**************************************************/
+.header-area {
+	background: rgb(0,0,0,.5);
+	position: sticky;
+	top: 0;
+	z-index: 555;
+}
+.navbar-brand{
+	font-family: 'back_to_black_demoregular';
+	font-size: 34px;
+	color: #fff!important;
+	transition: .5s;
+}
+.navbar-brand:hover{
+	color: #f1c40f!important;
+}
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu ul li {
+	margin: 0 15px;
+}
+.menu ul li a {
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 10px;
+	border-bottom: 2px solid transparent;
+	transition: .5s;
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-weight: 500;
+}
+.menu ul li a:hover, .menu ul li.active a{
+	color: #f1c40f!important;
+	border-bottom: 2px solid #f1c40f;
+}
+  /**************************************************/
+ /****************2.Banner area css*****************/
+/**************************************************/
+.w-100 {
+	width: 100% !important;
+	height: 100vh;
+}
+.carousel-overlay, .carousel-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgb(0,0,0,.3);
+}
+.carousel-content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.carousel-content h2 {
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.carousel-content h1 {
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-weight: 500;
+}
+.carousel-content h1 span {
+	color: #f1c40f;
+	text-transform: capitalize;
+  	font-family: 'Raleway', sans-serif!important;
+  	font-weight: 200;
+}
+.custom-carousel {
+	top: 50%;
+	transform: translateY(-50%);
+	height: 30px;
+}
+.custom-carousel i{
+	font-size: 30px;
+}
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.carousel-indicators .active {
+	opacity: 1;
+	background-color: #f1c40f;
+}
+  /**************************************************/
+ /****************3.About area css******************/
+/**************************************************/
+.left-about{}
+.left-about img {
+	width: 100%;
+	border-radius: 50%;
+}
+.right-about {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+.right-about p span{
+	color: #f1c40f;
+	font-size: 36px;
+  	font-family: 'Raleway', sans-serif!important;
+}
+.right-about p {
+	font-size: 20px;
+	margin-left: 30px;
+	text-align: justify;
+}
+  /**************************************************/
+ /****************1.Services area css***************/
+/**************************************************/
+.services-area{
+	background: #F7F7F7;
+}
+.single-service {
+	height: 100%;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 7px 0px #d2d0d0;
+	box-shadow: 0px 3px 7px 0px #d2d0d0;
+	position: relative;
+}
+.col-lg-4.service-margin {
+		margin-bottom: 0px!important;
+	}
+.single-service img {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.single-service h3 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 600;
+}
+.single-service p {
+	padding: 0 25px;
+	text-align: justify;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+.single-service a {
+	display: block;
+	bottom: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Raleway', sans-serif !important;
+	padding: 2px 15px;
+	color: #000;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background: #f1c40f;
+	-webkit-box-shadow: 0px 3px 7px 0px #d2d0d0;
+	box-shadow: 0px 3px 7px 0px #d9d1d1;
+	border: 1px solid #c6c3c3;
+	transition: .5s ease;
+}
+.single-service a:hover{
+	background: #f39c12;
+	color: #fff;
+}
+  /**************************************************/
+ /****************4.Skill area css******************/
+/**************************************************/}
+.my-skills{}
+.my-skills p {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.progress {
+	border-radius: 10px;
+}
+.progress-bar {
+	padding-top: 7px;
+	border-radius: 10px;
+	background-color: #f1c40f;
+	color: #000;
+}
+  /**************************************************/
+ /****************5.Work area css*******************/
+/**************************************************/
+.work-area{
+	background: #F7F7F7;
+}
+.work p {
+	margin: 30px 0;
+	font-size: 16px;
+}
+.single-work{
+	margin-top: 30px;
+	position: relative;
+	transition: .5s;
+}
+.single-work img {
+	width: 100%;
+	-webkit-box-shadow: 0px 3px 7px 0px #d2d0d0;
+	box-shadow: 0px 3px 7px 0px #d2d0d0;
+	border: 1px solid #bdb2b2;
+	position: relative;
+	transition: .5s;
+
+}
+.work-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(0,0,0,.7);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: .5s;
+}
+.work-overlay a {
+	font-size: 30px;
+	color: #fff;
+	transition: .5s;
+}
+.work-overlay a:hover{
+	color: #0652DD;
+}
+.single-work:hover .work-overlay{
+	/*visibility: visible;*/
+	display: flex;
+}
+  /**************************************************/
+ /****************6.Contact area css ***************/
+/**************************************************/
+.single-contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	flex-direction: column;
+	border: 1px solid #f1c40f;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.single-contact i {
+	font-size: 30px;
+	color: #fff;
+	background: #f1c40f;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 7px #ffef00;
+	box-shadow: 0px 0px 0px 7px #ffef00;
+	margin-top: -25px;
+	margin-bottom: 25px;
+}
+.single-contact a {
+	color: #000;
+	text-decoration: underline;
+}
+.single-contact a:hover{
+	color: #0652DD;
+	text-decoration: underline;
+}
+.single-contact p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.contact-form {
+	margin-top: 70px;
+	position: relative;
+}
+.contact-form form .col-md-6 input, .contact-form form .col-md-12 input, .contact-form form .col-md-12 textarea {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px 15px;
+	font-family: 'Raleway', sans-serif !important;
+	border: 1px solid #dbdada;
+}
+.contact-form form .col-md-6 input:focus, .contact-form form .col-md-12 input:focus, .contact-form form .col-md-12 textarea:focus{
+	border: 1px solid #f1c40f;
+	box-shadow: 0 0 3px #f1c40f;
+}
+.contact-form form a {
+	text-align: right;
+	right: 0;
+	padding: 8px 35px;
+	background: #F1C40F;
+	position: absolute;
+	font-family: 'Raleway', sans-serif !important;
+	-webkit-box-shadow: 0px 3px 7px 0px #d2d0d0;
+	box-shadow: 0px 3px 7px 0px #d9d1d1;
+	border: 1px solid #c6c3c3;
+	transition: .5s ease;
+	color: #000;
+	border-radius: 3px;
+}
+.contact-form form a:hover{
+	background: #f39c12;
+	color: #fff;
+}
+  /**************************************************/
+ /****************7.Contact area css ***************/
+/**************************************************/
+.footer-area {
+	background: rgb(0,0,0,.5);
+	font-family: 'Raleway', sans-serif !important;
+	margin-top: 30px;
+}
+.footer p {
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+.footer p span{
+	color: #F1C40F;
+}
